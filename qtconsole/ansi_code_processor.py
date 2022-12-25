@@ -77,7 +77,7 @@ class AnsiCodeProcessor(object):
         self.reset_sgr()
 
     def reset_sgr(self):
-        """ Reset graphics attributs to their default values.
+        """ Reset graphics attributes to their default values.
         """
         self.intensity = 0
         self.italic = False
